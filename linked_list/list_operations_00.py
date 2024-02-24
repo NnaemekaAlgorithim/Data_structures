@@ -17,3 +17,9 @@ class append(Print_list):
             last_node = last_node.next
         
         last_node.next = new_node
+
+
+    def insert_at_beginning(self, data):
+        new_node = Node(data)
+        new_node.next = self.head
+        self.head = new_node

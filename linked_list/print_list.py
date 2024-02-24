@@ -3,7 +3,7 @@ class Print_list:
         current_node = Node.head
 
         while current_node:
-            print("(",current_node.data,")",end= "=>")
+            print(current_node.data, end= " => ")
             current_node = current_node.next
         
         print("end")
